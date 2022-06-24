@@ -10,9 +10,6 @@
 # print(circle3.area())  # 28.27
 # print(circle3.perimeter())  # 18.85
 
-from tkinter import N
-
-
 class Circle:
     def __init__(self, radius):
         self.radius = radius

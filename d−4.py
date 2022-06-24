@@ -25,11 +25,7 @@ class MyCounterV1:
         self.value = self.value + 1
         return self.value
 
-
-    
-    # def count_up():
-    #     value = self.value + 1
-
+        
 counter1 = MyCounterV1(value=0)
 
 print(counter1.value)  # 0
